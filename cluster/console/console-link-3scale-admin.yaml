@@ -1,0 +1,11 @@
+apiVersion: console.openshift.io/v1
+kind: ConsoleLink
+metadata:
+  name: 3scale-admin
+spec:
+  href: 'https://3scale-admin.rhi-3scale.apps.ocp4.ray-hklab.com/'
+  location: ApplicationMenu
+  text: Red Hat 3scale admin
+  applicationMenu:
+    section: Red Hat Middleware
+    imageURL: https://avatars.githubusercontent.com/u/21415?s=200&v=4
