@@ -1,0 +1,11 @@
+apiVersion: console.openshift.io/v1
+kind: ConsoleLink
+metadata:
+  name: fuse-console
+spec:
+  href: 'https://fuse-console-rhi-fuse-console.apps.ocp4.ray-hklab.com/'
+  location: ApplicationMenu
+  text: Red Hat 3scale admin
+  applicationMenu:
+    section: Red Hat Middleware
+    imageURL: https://avatars.githubusercontent.com/u/4243506?s=200&v=4
