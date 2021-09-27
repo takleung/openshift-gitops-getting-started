@@ -1,0 +1,11 @@
+apiVersion: console.openshift.io/v1
+kind: ConsoleLink
+metadata:
+  name: argocd
+spec:
+  applicationMenu:
+    imageURL: 'https://avatars.githubusercontent.com/u/30269780?s=200&v=4'
+    section: OpenShift GitOps
+  href: 'https://openshift-gitops-server-openshift-gitops.apps.ocp4.ray-hklab.com'
+  location: ApplicationMenu
+  text: Cluster Argo CD

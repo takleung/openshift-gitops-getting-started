@@ -1,0 +1,11 @@
+apiVersion: console.openshift.io/v1
+kind: ConsoleLink
+metadata:
+  name: acs
+spec:
+  applicationMenu:
+    imageURL: 'https://avatars.githubusercontent.com/u/40638982?s=200&v=4'
+    section: Red Hat Applications
+  href: 'https://central-stackrox.apps.ocp4.ray-hklab.com/main/dashboard'
+  location: ApplicationMenu
+  text: Advanced Cluster Security

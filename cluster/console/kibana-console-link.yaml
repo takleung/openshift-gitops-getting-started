@@ -1,0 +1,11 @@
+apiVersion: console.openshift.io/v1
+kind: ConsoleLink
+metadata:
+  name: kibana-public-url
+spec:
+  applicationMenu:
+    imageURL: 'https://avatars.githubusercontent.com/u/42973632?v=4'
+    section: Observability
+  href: 'https://kibana-openshift-logging.apps.ocp4.ray-hklab.com'
+  location: ApplicationMenu
+  text: Logging
