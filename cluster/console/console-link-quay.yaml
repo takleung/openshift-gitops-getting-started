@@ -3,7 +3,7 @@ kind: ConsoleLink
 metadata:
   name: quay
 spec:
-  href: 'https://example-registry-quay-quay.router-default.apps.ocp4.ray-hklab.com'
+  href: 'https://example-registry-quay-quay.apps.ocp4.ray-hklab.com/'
   location: ApplicationMenu
   text: Red Hat Quay
   applicationMenu:
